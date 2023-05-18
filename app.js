@@ -49,8 +49,8 @@ function updateCounts() {
 		guestElement.style.color = 'red'
 		homeElement.style.color = ''
 	} else if (homeCount === guestCount) {
-		homeElement.style.color = ''
-		guestElement.style.color = ''
+		homeElement.style.color = 'red'
+		guestElement.style.color = 'red'
 	} else {
 		homeElement.style.backgroundColor = ''
 		guestElement.style.backgroundColor = ''
